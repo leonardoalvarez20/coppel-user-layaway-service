@@ -14,7 +14,7 @@ class UserService:
     def __init__(self) -> None:
 
         self.user_service_client = APIRequest(
-            base_url="http://localhost:8000/api/v1/",
+            base_url="http://coppel-user-service-app:8000/api/v1/",
             headers={
                 "Accept": "application/json",
                 "Content-Type": "application/json",

@@ -14,7 +14,7 @@ class SearchService:
     def __init__(self) -> None:
 
         self.user_service_client = APIRequest(
-            base_url="http://localhost:8001/api/v1/",
+            base_url="http://coppel-search-service-app:8001/api/v1/",
             headers={
                 "Accept": "application/json",
                 "Content-Type": "application/json",
